@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <a href="https://itzmudit.vercel.app"><img src="https://img.shields.io/badge/portfolio-itzmudit.vercel.app-ffb547?style=for-the-badge&labelColor=0d1113" alt="Portfolio: itzmudit.vercel.app"></a>
+  <a href="https://muditjindal.vercel.app"><img src="https://img.shields.io/badge/portfolio-muditjindal.vercel.app-ffb547?style=for-the-badge&labelColor=0d1113" alt="Portfolio: muditjindal.vercel.app"></a>
   <img src="https://img.shields.io/badge/focus-circuits_%C2%B7_code_%C2%B7_AI_security-5fd4e3?style=for-the-badge&labelColor=0d1113" alt="Focus: circuits, code, AI security">
 </p>
 
@@ -11,7 +11,7 @@
 
 I work on both sides of the stack: circuits and signals on one side, software and AI on the other. So far that's a circuit solver in C, an AI tool that attacks chatbots to find their weak spots, and the frontend for a road-health prediction system. Lately I've been learning how EEG and EMG signals are read and used to control hardware.
 
-**Try my work instead of reading about it:** my [portfolio](https://itzmudit.vercel.app) has a working shell, MiniSPICE running live in the browser, and an image-processing lab written from scratch.
+**Try my work instead of reading about it:** my [portfolio](https://muditjindal.vercel.app) has a working shell, MiniSPICE running live in the browser, and an image-processing lab written from scratch.
 
 ### `$ ls ~/builds`
 
@@ -34,7 +34,7 @@ Red-teams AI chatbots. Fires **40 prompt-injection and jailbreak attacks** in 6 
 
 A DC circuit solver in a single C file. Builds the conductance matrix from KCL, solves it with **partial pivoting**, detects floating nodes, and checks that power supplied equals power used. SDF Lab-1, team of 4.
 
-**[▶ Run it in your browser](https://itzmudit.vercel.app/#lab)**
+**[▶ Run it in your browser](https://muditjindal.vercel.app/#lab)**
 
 </td>
 </tr>
@@ -49,12 +49,12 @@ A road-health prediction system that flags roads likely to fail before they beco
 </td>
 <td width="50%" valign="top">
 
-#### [This portfolio](https://itzmudit.vercel.app)
+#### [This portfolio](https://muditjindal.vercel.app)
 `JavaScript` `Canvas` `Vercel`
 
 Hand-built, no framework: a working shell, MiniSPICE ported from C to JavaScript, an image-processing lab written from scratch, and an interactive signal-field background.
 
-**[▶ Open it](https://itzmudit.vercel.app)**
+**[▶ Open it](https://muditjindal.vercel.app)**
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ open_to:  new ideas, collaborations, interesting problems
 ### `$ ./contact.sh`
 
 <p>
-  <a href="https://itzmudit.vercel.app/#contact"><img src="https://img.shields.io/badge/portfolio-contact_form-ffb547?style=flat-square&labelColor=0d1113" alt="Contact through my portfolio"></a>
+  <a href="https://muditjindal.vercel.app/#contact"><img src="https://img.shields.io/badge/portfolio-contact_form-ffb547?style=flat-square&labelColor=0d1113" alt="Contact through my portfolio"></a>
   <!-- Add your email: replace YOUR_EMAIL below and remove these comment marks
   <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/email-YOUR_EMAIL-5fd4e3?style=flat-square&labelColor=0d1113" alt="Email"></a>
   -->
