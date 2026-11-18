@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="mudit@jiit terminal: whoami, builds, CaughtBot score 22 to 62, MiniSPICE solve; oscilloscope with a live ECG trace">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="0.9" fill="#8ca0aa" fill-opacity="0.14"/></pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <clipPath id="screen"><rect x="760" y="92" width="390" height="214" rx="6"/></clipPath>
+    <style>
+      .m{white-space:pre;font-family:'JetBrains Mono','Fira Code',Consolas,Menlo,'DejaVu Sans Mono',monospace;font-size:16px}
+      .s{font-size:12px}
+      .g{fill:#62c784}.a{fill:#ffb547}.c{fill:#5fd4e3}.w{fill:#e8e4dc}.d{fill:#8a949a}.r{fill:#ef7a64}
+    </style>
+  </defs>
+
+  <!-- board -->
+  <rect width="1200" height="380" rx="18" fill="#07090a"/>
+  <rect width="1200" height="380" rx="18" fill="url(#dots)"/>
+  <g fill="none" stroke="#5fd4e3" stroke-opacity="0.16" stroke-width="1.4">
+    <path id="t1" d="M0 52 H120 L150 22 H300"/>
+    <path id="t2" d="M720 360 V320 L700 300 V250"/>
+    <path id="t3" d="M1200 64 H1170 L1150 44 H900"/>
+    <path id="t4" d="M0 330 H60 L90 360"/>
+    <path d="M720 30 H740 L752 42"/>
+  </g>
+  <g fill="none" stroke="#ffb547" stroke-opacity="0.35" stroke-width="1.3">
+    <circle cx="300" cy="22" r="3"/><circle cx="700" cy="250" r="3"/><circle cx="900" cy="44" r="3"/><circle cx="90" cy="360" r="3"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle r="2.6" fill="#ffb547"><animateMotion dur="3.4s" repeatCount="indefinite"><mpath href="#t1"/></animateMotion></circle>
+    <circle r="2.6" fill="#5fd4e3"><animateMotion dur="2.6s" repeatCount="indefinite" begin="0.8s"><mpath href="#t2"/></animateMotion></circle>
+    <circle r="2.6" fill="#ffb547"><animateMotion dur="3s" repeatCount="indefinite" begin="1.4s"><mpath href="#t3"/></animateMotion></circle>
+  </g>
+
+  <!-- terminal window -->
+  <rect x="30" y="38" width="680" height="304" rx="12" fill="#0d1113" stroke="#1d2529"/>
+  <path d="M30 50 a12 12 0 0 1 12 -12 h656 a12 12 0 0 1 12 12 v22 h-680 z" fill="#111619"/>
+  <circle cx="54" cy="55" r="6" fill="#ef7a64"/><circle cx="74" cy="55" r="6" fill="#ffb547"/><circle cx="94" cy="55" r="6" fill="#62c784"/>
+  <text x="370" y="60" text-anchor="middle" class="m s d">mudit@jiit: ~</text>
+
+  <!-- line 1: whoami -->
+  <clipPath id="k1"><rect x="50" y="88" width="0" height="26"><animate attributeName="width" from="0" to="270" begin="0.3s" dur="0.5s" fill="freeze"/></rect></clipPath>
+  <text x="54" y="107" class="m" clip-path="url(#k1)"><tspan class="g">mudit@jiit</tspan><tspan class="w">:</tspan><tspan class="a">~</tspan><tspan class="w">$ whoami</tspan></text>
+  <text x="54" y="133" class="m w" opacity="0">Mudit Jindal · B.Tech ECE @ JIIT Noida (2026–30)<set attributeName="opacity" to="1" begin="0.95s" fill="freeze"/></text>
+
+  <!-- line 2: ls -->
+  <clipPath id="k2"><rect x="50" y="146" width="0" height="26"><animate attributeName="width" from="0" to="300" begin="1.35s" dur="0.5s" fill="freeze"/></rect></clipPath>
+  <text x="54" y="165" class="m" clip-path="url(#k2)"><tspan class="g">mudit@jiit</tspan><tspan class="w">:</tspan><tspan class="a">~</tspan><tspan class="w">$ ls ~/builds</tspan></text>
+  <text x="54" y="191" class="m c" opacity="0">caughtbot/   minispice/   roadsentinel/   image-lab/<set attributeName="opacity" to="1" begin="2s" fill="freeze"/></text>
+
+  <!-- line 3: caughtbot -->
+  <clipPath id="k3"><rect x="50" y="204" width="0" height="26"><animate attributeName="width" from="0" to="380" begin="2.4s" dur="0.6s" fill="freeze"/></rect></clipPath>
+  <text x="54" y="223" class="m" clip-path="url(#k3)"><tspan class="g">mudit@jiit</tspan><tspan class="w">:</tspan><tspan class="a">~</tspan><tspan class="w">$ ./caughtbot --score</tspan></text>
+  <text x="54" y="249" class="m" opacity="0"><tspan class="d">security score </tspan><tspan class="r">22</tspan><tspan class="d"> → </tspan><tspan class="g">62</tspan><tspan class="d"> / 100   </tspan><tspan class="g">✓ hardened</tspan><set attributeName="opacity" to="1" begin="3.15s" fill="freeze"/></text>
+
+  <!-- line 4: minispice -->
+  <clipPath id="k4"><rect x="50" y="262" width="0" height="26"><animate attributeName="width" from="0" to="470" begin="3.55s" dur="0.7s" fill="freeze"/></rect></clipPath>
+  <text x="54" y="281" class="m" clip-path="url(#k4)"><tspan class="g">mudit@jiit</tspan><tspan class="w">:</tspan><tspan class="a">~</tspan><tspan class="w">$ ./minispice &lt; divider.cir</tspan></text>
+  <text x="54" y="307" class="m" opacity="0"><tspan class="d">N2 = </tspan><tspan class="a">6.6667 V</tspan><tspan class="d"> · 33.3333 mA · power balance </tspan><tspan class="g">✓</tspan><set attributeName="opacity" to="1" begin="4.4s" fill="freeze"/></text>
+
+  <!-- prompt + cursor -->
+  <text x="54" y="333" class="m" opacity="0"><tspan class="g">mudit@jiit</tspan><tspan class="w">:</tspan><tspan class="a">~</tspan><tspan class="w">$</tspan><set attributeName="opacity" to="1" begin="4.8s" fill="freeze"/></text>
+  <rect x="192" y="319" width="10" height="18" fill="#ffb547" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.5;0.51;1" dur="1s" begin="4.8s" repeatCount="indefinite"/></rect>
+
+  <!-- oscilloscope -->
+  <rect x="740" y="38" width="430" height="304" rx="14" fill="#14181b" stroke="#2b3135"/>
+  <text x="760" y="70" class="m s a" font-weight="700">MJ-SCOPE</text>
+  <text x="836" y="70" class="m s d">· CH1 ECG · 72 BPM</text>
+  <circle cx="1080" cy="66" r="4" fill="#62c784"><animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/></circle>
+  <text x="1090" y="70" class="m s g">TRIG'D</text>
+  <rect x="760" y="92" width="390" height="214" rx="6" fill="#050607" stroke="#000"/>
+  <g clip-path="url(#screen)">
+    <g stroke="#182024" stroke-width="1">
+      <path d="M799 92V306M838 92V306M877 92V306M916 92V306M994 92V306M1033 92V306M1072 92V306M1111 92V306"/>
+      <path d="M760 119H1150M760 146H1150M760 173H1150M760 226H1150M760 253H1150M760 280H1150"/>
+    </g>
+    <path d="M955 92V306M760 199H1150" stroke="#2a363b" stroke-width="1"/>
+    <!-- CH2 reference sine -->
+    <g>
+      <path d="M760 268 q32.5 -14 65 0 t65 0 t65 0 t65 0 t65 0 t65 0 t65 0 t65 0 t65 0" fill="none" stroke="#5fd4e3" stroke-opacity="0.5" stroke-width="1.6"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-130 0" dur="2.4s" repeatCount="indefinite"/>
+    </g>
+    <!-- CH1 ECG, scrolling -->
+    <g filter="url(#glow)">
+      <path fill="none" stroke="#ffb547" stroke-width="2.4" stroke-linejoin="round"
+        d="M760 190 h40 q5 -6 10 0 h20 l4 6 l6 -64 l6 70 l4 -12 h30 q15 -16 30 0 h50
+           h40 q5 -6 10 0 h20 l4 6 l6 -64 l6 70 l4 -12 h30 q15 -16 30 0 h50
+           h40 q5 -6 10 0 h20 l4 6 l6 -64 l6 70 l4 -12 h30 q15 -16 30 0 h50
+           h40 q5 -6 10 0 h20 l4 6 l6 -64 l6 70 l4 -12 h30 q15 -16 30 0 h50"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-200 0" dur="1.6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <text x="760" y="330" class="m s d">B.Tech ECE · JIIT Noida · </text>
+  <text x="962" y="330" class="m s c">github.com/itzmudit</text>
+</svg>
