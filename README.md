@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" width="100%" alt="mudit@lab terminal: whoami, ls builds, CaughtBot security score 22 to 62, MiniSPICE solving a circuit, next to an oscilloscope showing a live ECG trace">
+  <img src="./assets/banner.svg?v=2" width="100%" alt="mudit@lab terminal: whoami, ls builds, CaughtBot security score 22 to 62, MiniSPICE solving a circuit, next to an oscilloscope showing a live ECG trace">
 </div>
 
 <p align="center">
