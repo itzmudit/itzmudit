@@ -9,7 +9,7 @@
 
 ### `$ whoami`
 
-I work on both sides of the stack: circuits and signals on one side, software and AI on the other. So far that's a circuit solver in C, an AI tool that attacks chatbots to find their weak spots, and the frontend for a road-health prediction system. Lately I've been learning how EEG and EMG signals are read and used to control hardware.
+I work on both sides of the stack: circuits and signals on one side, software and AI on the other. So far that's a circuit solver in C, an AI tool that attacks chatbots to find their weak spots, and the frontend for a road-health prediction system. Next up: MiniSPICE v2, with modified nodal analysis.
 
 **Try my work instead of reading about it:** my [portfolio](https://muditjindal.vercel.app) has a working shell, MiniSPICE running live in the browser, and an image-processing lab written from scratch.
 
@@ -66,7 +66,7 @@ Hand-built, no framework: a working shell, MiniSPICE ported from C to JavaScript
   <img src="https://skillicons.dev/icons?i=c,python,js,html,css,sqlite,git,github,vscode,linux&theme=dark" alt="C, Python, JavaScript, HTML, CSS, SQLite, Git, GitHub, VS Code, Linux">
 </p>
 
-**Hardware & signals:** circuit analysis · nodal analysis · numerical methods · EEG / EMG (learning)  
+**Hardware & signals:** circuit analysis · nodal analysis · numerical methods · signal basics  
 **Software & AI:** Python · C · JavaScript · Streamlit · Pydantic · Groq API · SQLite · LLM security
 
 ### `$ git log --stat`
@@ -91,7 +91,6 @@ Hand-built, no framework: a working shell, MiniSPICE ported from C to JavaScript
 ```yaml
 studying: B.Tech, Electronics & Communication Engineering · JIIT Noida (2026–2030)
 building: MiniSPICE v2 (current sources + modified nodal analysis)
-learning: EEG / EMG signals and brain-computer interfaces
 open_to:  new ideas, collaborations, interesting problems
 ```
 
