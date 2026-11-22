@@ -26,6 +26,8 @@ Red-teams AI chatbots. Fires **40 prompt-injection and jailbreak attacks** in 6 
 
 **Security score on the demo bot: `22 → 62`** · built at Hackin' Summer 2026
 
+**[▶ Try it live](https://caughtbot.streamlit.app)**
+
 </td>
 <td width="50%" valign="top">
 
