@@ -24,7 +24,7 @@ I work on both sides of the stack: circuits and signals on one side, software an
 
 Red-teams AI chatbots. Fires **40 prompt-injection and jailbreak attacks** in 6 categories, has a second LLM judge every reply, writes PDF reports, and **auto-hardens** the bot's prompt, keeping a fix only if the measured score goes up.
 
-**Security score on the demo bot: `22 → 62`** · built at Hackin' Summer 2026
+**Security score on the demo bot: `22 → 62`** · built with a team of three at Hackin' Summer 2026
 
 **[▶ Try it live](https://caughtbot.streamlit.app)**
 
