@@ -101,7 +101,5 @@ open_to:  new ideas, collaborations, interesting problems
   <!-- Add your email: replace YOUR_EMAIL below and remove these comment marks
   <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/email-YOUR_EMAIL-5fd4e3?style=flat-square&labelColor=0d1113" alt="Email"></a>
   -->
-  <!-- Add your LinkedIn: replace YOUR_LINKEDIN_URL below and remove these comment marks
-  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/linkedin-connect-0a66c2?style=flat-square&labelColor=0d1113" alt="LinkedIn"></a>
-  -->
+  <a href="https://www.linkedin.com/in/itzmudit"><img src="https://img.shields.io/badge/linkedin-itzmudit-0a66c2?style=flat-square&labelColor=0d1113" alt="LinkedIn"></a>
 </p>
