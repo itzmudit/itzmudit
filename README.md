@@ -11,7 +11,7 @@
 
 I work on both sides of the stack: circuits and signals on one side, software and AI on the other. So far that's a circuit solver in C, an AI tool that attacks chatbots to find their weak spots, and the frontend for a road-health prediction system. Next up: MiniSPICE v2, with modified nodal analysis.
 
-**Try my work instead of reading about it:** my [portfolio](https://muditjindal.vercel.app) has a working shell, MiniSPICE running live in the browser, and an image-processing lab written from scratch.
+**Try my work instead of reading about it:** my [portfolio](https://muditjindal.vercel.app) has a working shell, MiniSPICE running live in the browser (share any circuit as a link), and an image-processing lab written from scratch.
 
 ### `$ ls ~/builds`
 
@@ -52,9 +52,9 @@ A road-health prediction system that flags roads likely to fail before they beco
 <td width="50%" valign="top">
 
 #### [This portfolio](https://muditjindal.vercel.app)
-`JavaScript` `Canvas` `Vercel`
+`JavaScript` `Canvas` `PWA` `Vercel`
 
-Hand-built, no framework: a working shell, MiniSPICE ported from C to JavaScript, an image-processing lab written from scratch, and an interactive signal-field background.
+Hand-built, no framework: a working shell (try `ohm 9V 4.7k`), MiniSPICE ported from C with shareable circuit links, an image lab with Sobel edge detection written from scratch, and a code-rain and circuit-trace background. Installable as an app.
 
 **[▶ Open it](https://muditjindal.vercel.app)**
 
